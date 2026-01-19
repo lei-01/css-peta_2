@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>The Tale</title>
+<link rel="stylesheet" href="style.css">
+
+<script>
+function toggle(id) {
+    const text = document.getElementById(id);
+    text.style.display = text.style.display === "block" ? "none" : "block";
+}
+</script>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="story.html">The Tale</a>
+    <a href="about.html">Behind the Legend</a>
+    <a href="profile.html">My Profile</a>
+</nav>
+
+<div class="section">
+
+<button class="story-btn" onclick="toggle('begin')">Beginning</button>
+<div id="begin" class="story-text">
+<p>
+Long ago in coastal villages, fishermen spoke of the Sirena whose voice echoed across the sea,
+guiding sailors toward danger under moonlit waves.
+</p>
+</div>
+
+<button class="story-btn" onclick="toggle('middle')">Middle</button>
+<div id="middle" class="story-text">
+<p>
+Young Lani ignored the warnings and followed the song, feeling both fear and fascination
+as the ocean pulled him closer to the reefs.
+</p>
+</div>
+
+<button class="story-btn" onclick="toggle('end')">End</button>
+<div id="end" class="story-text">
+<p>
+He survived by respecting the sea, learning that beauty and danger often coexist beneath the waves.
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
