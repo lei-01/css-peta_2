@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Fantasy;
-  background: #1a1405; /* deep warm night */
+  background: #1a1405; 
 }
 
 .topnav {
@@ -178,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
 }
+
 
 
 
